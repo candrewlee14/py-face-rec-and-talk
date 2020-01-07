@@ -27,7 +27,7 @@ with open("config.yaml", 'r') as stream:
 # Get a reference to webcam #0 (the default one)
 video_capture = cv2.VideoCapture(0)
 
-known_pictures_dir = os.listdir('known_pictures')
+#known_pictures_dir = os.listdir('known_pictures')
 unknown_pictures_dir = os.listdir('unknown_pictures')
 known_face_encodings_dir = os.listdir('known_face_encodings')
 
